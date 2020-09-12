@@ -1,0 +1,45 @@
+{
+  "name": "ng-tailwind-builder",
+  "version": "0.0.1",
+  "description": "Extract Classes from your Angular template to bundle TailwindCSS",
+  "main": "lib/api.js",
+  "repository": "https://github.com/vikaspotluri123/ng-tailwind-builder",
+  "author": "Vikas Potluri <vikaspotluri123.github@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@angular/compiler": "10.0.0",
+    "@angular/core": "10.0.0",
+    "c8": "^7.3.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "typescript": "3.9.5",
+    "xo": "^0.33.1"
+  },
+  "xo": {
+    "rules": {
+      "func-names": [
+        2,
+        "as-needed"
+      ]
+    },
+    "overrides": [
+      {
+        "files": [
+          "test/**/*"
+        ],
+        "env": [
+          "mocha"
+        ],
+        "rules": {
+          "prefer-arrow-callback": "off",
+          "func-names": "off"
+        }
+      }
+    ]
+  },
+  "peerDependencies": {
+    "@angular/compiler": "^10.0.0",
+    "typescript": ">3.9"
+  }
+}
