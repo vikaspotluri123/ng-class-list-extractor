@@ -1,6 +1,6 @@
 {
   "name": "ng-class-list-extractor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Determine what CSS classes an Angular Template or Component uses",
   "keywords": [
     "angular",
