@@ -1,9 +1,19 @@
 {
-  "name": "ng-tailwind-builder",
-  "version": "0.0.1",
-  "description": "Extract Classes from your Angular template to bundle TailwindCSS",
+  "name": "ng-class-list-extractor",
+  "version": "0.1.0",
+  "description": "Determine what CSS classes an Angular Template or Component uses",
+  "keywords": [
+    "angular",
+    "angular-cli",
+    "ng",
+    "ng-tailwind",
+    "css",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
   "main": "lib/api.js",
-  "repository": "https://github.com/vikaspotluri123/ng-tailwind-builder",
+  "repository": "https://github.com/vikaspotluri123/ng-class-list-extractor",
   "author": "Vikas Potluri <vikaspotluri123.github@gmail.com>",
   "license": "MIT",
   "private": false,
