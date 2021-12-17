@@ -2,6 +2,12 @@
 
 > Determine what CSS classes an Angular Template or Component uses
 
+## Deprecated
+
+With Tailwind the 3.0 release, extractors changed from a per-file basis to a per-line basis. There's tons of edge cases when it comes to extracting class names from a single line with no context, so this library is essentially moot.
+
+If you're interested in the package name, or have any questions, feel free to reach out!
+
 ## Purpose
 
 The tl;dr is this package was written for compatibility with [TailwindCSS](https://tailwindcss.com), specifically [purging unused styles](https://tailwindcss.com/docs/controlling-file-size)
